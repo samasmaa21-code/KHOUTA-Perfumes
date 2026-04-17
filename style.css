@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #f8f8f8, #e6e6e6);
+  color: #222;
+}
+
+/* Header */
+h1 {
+  font-size: 40px;
+  margin-top: 50px;
+  letter-spacing: 2px; /* Adds a luxury feel */
+  text-transform: uppercase;
+}
+
+p {
+  color: #777; /* Slightly softer than #555 for elegance */
+  font-size: 16px;
+  font-style: italic;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Products */
+.product {
+  background: white;
+  padding: 30px;
+  margin: 20px;
+  width: 280px;
+  border-radius: 0px; /* Sharp corners often look more "designer" */
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.05); /* Softer shadow */
+  transition: 0.4s ease;
+  border: 1px solid #eee;
+}
+
+.product:hover {
+  transform: translateY(-10px); /* Lift up instead of scale */
+  box-shadow: 0px 15px 40px rgba(0,0,0,0.1);
+}
+
+.product h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+/* Price */
+.product p {
+  font-weight: bold;
+  color: #000;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+/* Button */
+button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 0; /* Match the boxy elegant style */
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #333;
+}
+
+/* Minimalist WhatsApp Button */
+.whatsapp-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #000; /* Changed to black to match your style */
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
